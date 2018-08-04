@@ -102,135 +102,206 @@
                                 <input class="input" type="text" placeholder="Check out Date">
                             </div>
                         </div>
-                    <div class="column small-12 reservation-small text-center"><a>Make a Reservation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <i class="fa fa-arrow-right"></i></a></div>
+                        <div class="column small-12 reservation-small text-center"><a>Make a Reservation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
+
                 </div>
 
             </div>
-
         </div>
-</div>
-</section>
+    </section>
 
 
-<section class="grid-container fluid section-two">
-    <div class="row experience-div" >
-        <div class="column small-12 medium-6 align-self-bottom experience">
-            <h2>Giving you an experience,
-            Something better than
-            just living</h2><br/>
-        </div>
-        <div class="column small-12  medium-6  align-self-bottom ">
-            <img src="http://via.placeholder.com/350x200">
-        </div>
-    </div>
-
-    <div class="row workplace-div" >
-        <div class="column small-12  medium-6 align-self-top workplace ">
-            <p>
-                Refocus your workplace on people. Refocus <br/>
-                your workplace on people. Refocus your <br/>
-                workplace on people. Refocus your workplace<br/>
-                on people
-            </p>
-
-            <a>Learn More &nbsp; &nbsp; &nbsp; <i class="fa fa-arrow-right"></i></a>
-        </div>
-        <div class="column small-12  medium-6 text-center">
-            <img src="http://via.placeholder.com/450x200">
-        </div>
-    </div>
-
-</section>
-
-<section class="grid-container fluid section-three">
-
-</section>
-
-<section class="grid-container fluid section-four">
-
-
-</section>
-
-<section class="grid-container fluid section-five">
-
-
-</section>
-
-<section class="grid-container fluid section-six">
-
-
-</section>
-
-<section class="grid-container fluid section-seven">
-
-
-</section>
-
-<section class="grid-container fluid section-eight">
-
-
-</section>
-
-
-<section class="grid-container fluid section-nine">
-
-    <footer class="grid-container  ">
-
-        <div class="grid-x expanded callout secondary">
-            <div class="small-6 large-3 cell">
-                <p class="lead">Offices</p>
-                <ul class="menu vertical">
-                    <li><a href="#">One</a></li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                    <li><a href="#">Four</a></li>
-                </ul>
+    <section class="grid-container fluid section-two">
+        <div class="row experience-div">
+            <div class="column small-12 medium-6 align-self-bottom experience">
+                <h2>Giving you an experience,
+                    Something better than
+                    just living</h2><br/>
             </div>
-            <div class="small-6 large-3 cell">
-                <p class="lead">Solar Systems</p>
-                <ul class="menu vertical">
-                    <li><a href="#">One</a></li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                    <li><a href="#">Four</a></li>
-                </ul>
-            </div>
-            <div class="small-6 large-3 cell">
-                <p class="lead">Contact</p>
-                <ul class="menu vertical">
-                    <li><a href="#"><i class="fi-social-twitter"></i> Twitter</a></li>
-                    <li><a href="#"><i class="fi-social-facebook"></i> Facebook</a></li>
-                    <li><a href="#"><i class="fi-social-instagram"></i> Instagram</a></li>
-                    <li><a href="#"><i class="fi-social-pinterest"></i> Pinterest</a></li>
-                </ul>
-            </div>
-            <div class="small-6 large-3 cell">
-                <p class="lead">Offices</p>
-                <ul class="menu vertical">
-                    <li><a href="#">One</a></li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                    <li><a href="#">Four</a></li>
-                </ul>
+            <div class="column small-12  medium-6  align-self-bottom ">
+                <img src="http://via.placeholder.com/350x200">
             </div>
         </div>
-        <div class="grid-x">
-            <div class="medium-6 cell">
-                <ul class="menu align-center">
-                    <li><a href="#">Legal</a></li>
-                    <li><a href="#">Partner</a></li>
-                    <li><a href="#">Explore</a></li>
-                </ul>
+
+        <div class="row workplace-div">
+            <div class="column small-12  medium-6 align-self-top workplace ">
+                <p>
+                    Refocus your workplace on people. Refocus <br/>
+                    your workplace on people. Refocus your <br/>
+                    workplace on people. Refocus your workplace<br/>
+                    on people
+                </p>
+
+                <a>Learn More &nbsp; &nbsp; &nbsp; <i class="fa fa-arrow-right"></i></a>
             </div>
-            <div class="medium-6 cell">
-                <ul class="menu align-center">
-                    <li class="menu-text">Copyright 2018</li>
-                </ul>
+            <div class="column small-12  medium-6 text-center">
+                <img src="http://via.placeholder.com/450x200">
             </div>
         </div>
-    </footer>
-</section>
+    </section>
+
+
+    <section class="grid-container fluid section-three">
+        <div class="grid-container">
+            <div class="grid-x products">
+                <div class=" cell product-title">
+                    <h2 class="text-center">Explore our Products</h2>
+                </div>
+                <div class=" cell product-more">
+                    <p class="text-center">
+                        Find the right design for enabling your people to do their best
+                    </p>
+                </div>
+            </div>
+            <div class="grid-x product-category">
+
+                <div class="cell medium-3">
+                    <img src="{{asset('/images/10.png')}}">
+                    <p class="text-center">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                        Rooms and suits
+                    </p>
+                </div>
+                <div class="cell medium-3">
+                    <img src="{{asset('/images/11.png')}}">
+                    <p class="text-center">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                        conferences and Meeting
+                    </p>
+                </div>
+                <div class="cell medium-3">
+                    <img src="{{asset('/images/13.png')}}">
+                    <p class="text-center">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                        Dining
+                    </p>
+                </div>
+                <div class="cell medium-3">
+                    <img src="{{asset('/images/14.png')}}">
+                    <p class="text-center">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                        Excursions and activities
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="grid-container fluid section-four">
+        <div class="grid-container ">
+            <div class="row offer">
+                <div class=" medium-8 ">
+                        <h2 class="offer-title">
+                            Special Offers & Packages
+                        </h2>
+                        <p>Find the right design for enabling your people do their best</p>
+                </div>
+                <div class=" medium-3  offer-more align-self-bottom">
+                    <a href="#">View More <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="grid-container fluid section-five">
+        <div class="grid-container ">
+            <div class="grid-x first-image-row">
+                <div class=" medium-6 cell special-offer">
+                    <img src="{{asset('/images/3.png')}}">
+                </div>
+                <div class=" medium-6 cell power-court">
+                    <img src="{{asset('/images/2.png')}}">
+                </div>
+            </div>
+            <div class="grid-x ">
+                <div class=" medium-6 cell">
+                    <img src="{{asset('/images/4.png')}}">
+                </div>
+                <div class=" medium-6 cell new-experience">
+                    <img src="{{asset('/images/5.png')}}">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="grid-container fluid section-six">
+
+
+    </section>
+
+    <section class="grid-container fluid section-seven">
+
+
+    </section>
+
+    <section class="grid-container fluid section-eight">
+
+
+    </section>
+
+
+    <section class="grid-container fluid section-nine">
+
+        <footer class="grid-container  ">
+
+            <div class="grid-x expanded callout secondary">
+                <div class="small-6 large-3 cell">
+                    <p class="lead">Offices</p>
+                    <ul class="menu vertical">
+                        <li><a href="#">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                        <li><a href="#">Four</a></li>
+                    </ul>
+                </div>
+                <div class="small-6 large-3 cell">
+                    <p class="lead">Solar Systems</p>
+                    <ul class="menu vertical">
+                        <li><a href="#">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                        <li><a href="#">Four</a></li>
+                    </ul>
+                </div>
+                <div class="small-6 large-3 cell">
+                    <p class="lead">Contact</p>
+                    <ul class="menu vertical">
+                        <li><a href="#"><i class="fi-social-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fi-social-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fi-social-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fi-social-pinterest"></i> Pinterest</a></li>
+                    </ul>
+                </div>
+                <div class="small-6 large-3 cell">
+                    <p class="lead">Offices</p>
+                    <ul class="menu vertical">
+                        <li><a href="#">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                        <li><a href="#">Four</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-x">
+                <div class="medium-6 cell">
+                    <ul class="menu align-center">
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">Explore</a></li>
+                    </ul>
+                </div>
+                <div class="medium-6 cell">
+                    <ul class="menu align-center">
+                        <li class="menu-text">Copyright 2018</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
 </div>
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>

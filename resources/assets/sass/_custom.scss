@@ -223,16 +223,79 @@ body {
 .section-three {
   min-height: 720px;
   background: $black;
+
+  .products{
+    min-height: 100px;
+    padding: 80px 0px 50px 0px;
+    .product-title{
+      background: $backgroundGradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      h2 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        letter-spacing: 1px;
+      }
+    }
+    .product-more{
+      p{
+        color: $white;
+      }
+    }
+  }
+  .product-category{
+    color: $white;
+    img{
+      align:center;
+    }
+  }
 }
 
 .section-four {
-  min-height: 100px;
-  background: $white;
+  min-height: 90px;
+  background: #f9f9f9;
+  .offer{
+    padding: 30px 0px 30px 0px;
+    .offer-title{
+      background: $backgroundGradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      font-family: sans-serif;
+      font-weight: lighter;
+      letter-spacing: 1px;
+    }
+  }
+  .offer-more{
+    a{
+      color: #cacaca;
+      font-size: 16px;
+      font-weight: 900;
+      float: right;
+      padding-bottom: 30px;
+    }
+
+  }
+
 }
 
 .section-five {
   min-height: 920px;
-  background: $black;
+  background: #f9f9f9;
+  .first-image-row{
+    margin-bottom: 15px;
+  }
+  .special-offer{
+    width: 100%;
+    margin: -10px 0px 0px -10px;
+  }
+  .power-court{
+    margin-left: -20px;
+  }
+  .new-experience{
+    margin-left: -28px;
+  }
 }
 
 .section-six {
