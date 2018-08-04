@@ -120,8 +120,8 @@
                     Something better than
                     just living</h2><br/>
             </div>
-            <div class="column small-12  medium-6  align-self-bottom ">
-                <img src="http://via.placeholder.com/350x200">
+            <div class="column small-12  medium-6  align-self-bottom experience-img-one">
+                <img src="{{asset('images/15.png')}}" alt=""/>
             </div>
         </div>
 
@@ -136,8 +136,8 @@
 
                 <a>Learn More &nbsp; &nbsp; &nbsp; <i class="fa fa-arrow-right"></i></a>
             </div>
-            <div class="column small-12  medium-6 text-center">
-                <img src="http://via.placeholder.com/450x200">
+            <div class="column small-12  medium-6 text-center workplace-img-one">
+                <img src="{{asset('images/16.png')}}" alt=""/>
             </div>
         </div>
     </section>
@@ -193,10 +193,10 @@
         <div class="grid-container ">
             <div class="row offer">
                 <div class=" medium-8 ">
-                        <h2 class="offer-title">
-                            Special Offers & Packages
-                        </h2>
-                        <p>Find the right design for enabling your people do their best</p>
+                    <h2 class="offer-title">
+                        Special Offers & Packages
+                    </h2>
+                    <p>Find the right design for enabling your people do their best</p>
                 </div>
                 <div class=" medium-3  offer-more align-self-bottom">
                     <a href="#">View More <i class="fa fa-arrow-right"></i></a>
@@ -224,83 +224,192 @@
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <section class="grid-container fluid section-six">
-
-
+        <div class="grid-container ">
+            <div class="row dream-home">
+                <div class="column align-self-middle">
+                    <h2 class="text-center">Find a dream home</h2>
+                    <p class="text-center">find a top-rated home with amenities you need</p>
+                    <a href="#" class=" button text-center">&nbsp;&nbsp;&nbsp;&nbsp;View Deal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                                class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="grid-container fluid section-seven">
-
-
+        <div class="grid-container ">
+            <div class="row news">
+                <div class=" medium-4 ">
+                    <h2 class="news-title">
+                        News & Articles
+                    </h2>
+                    <p>Find facts and figures on people and the environment,
+                        or visualize the latest data on the world today</p>
+                </div>
+                <div class=" medium-8  news-more align-self-bottom">
+                    <a href="#">View More <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="grid-container fluid section-eight">
+        <div class="grid-container ">
+            <div class="grid-x article">
+                <div class="cell medium-7 article-left">
+                    <img src="{{asset('/images/7.png')}}">
+                </div>
+                <div class="cell medium-5 article-right">
+                    <div class="row">
+                        <div class="medium-12 article-one">
+                            <img src="{{asset('/images/8.png')}}">
+                        </div>
+                        <div class="medium-12">
+                            <img src="{{asset('/images/9.png')}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="grid-container fluid section-nine">
+        <div class="grid-container ">
 
 
+        </div>
     </section>
 
 
-    <section class="grid-container fluid section-nine">
+    <section class="grid-container fluid section-ten">
 
         <footer class="grid-container  ">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
 
             <div class="grid-x expanded callout secondary">
-                <div class="small-6 large-3 cell">
-                    <p class="lead">Offices</p>
-                    <ul class="menu vertical">
-                        <li><a href="#">One</a></li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
-                        <li><a href="#">Four</a></li>
+                <div class="cell medium-7">
+                    <div class="grid-x">
+                        <div class="small-4 large-4 cell">
+                            <div class="footer-title">Cytonn Residents</div>
+                            <ul class="menu vertical menu-footer">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Partners</a></li>
+                                <li><a href="#">Our Values</a></li>
+                                <li><a href="#">Timelines</a></li>
+                                <li><a href="#">Videos</a></li>
+                            </ul>
+                            <div class="footer-title">For Apartments</div>
+                            <ul class="menu vertical menu-footer">
+                                <li><a href="#">Living Spaces</a></li>
+                            </ul>
+                        </div>
+                        <div class="small-4 large-4 cell">
+                            <div class="footer-title">For Business</div>
+                            <ul class="menu vertical menu-footer">
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Living Office</a></li>
+                                <li><a href="#">Small Business Program</a></li>
+                            </ul>
+                            <div class="footer-title">For Education</div>
+                            <ul class="menu vertical menu-footer">
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Education Solutions</a></li>
+                            </ul>
+                        </div>
+                        <div class="small-4 large-4 cell">
+                            <div class="footer-title">Get Help</div>
+                            <ul class="menu vertical menu-footer">
+                                <li><a href="#">Customer Service</a></li>
+                                <li><a href="#">Care and Assembly</a></li>
+                                <li><a href="#">FQA</a></li>
+                            </ul>
+                            <div class="footer-title">Contacts</div>
+                            <ul class="menu vertical menu-footer">
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Media Relations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="medium-5">
+                    <div class="grid-x">
+                        <div class="small-4 medium-4 cell">
+                            <div class="footer-title">Reservation</div>
+                            <ul class="menu vertical menu-footer">
+                                <li><a href="#">Find an Apartment</a></li>
+                                <li><a href="#">Residence Store</a></li>
+                                <li><a href="#">Customer Journey</a></li>
+                            </ul>
+                            <div class="footer-title">Acccounts</div>
+                            <ul class="menu vertical menu-footer">
+                                <li><a href="#">Account Sign-In</a></li>
+                                <li><a href="#">Store</a></li>
+                            </ul>
+                        </div>
+                        <div class="small-4 medium-8 ">
+
+                                <div class="footer-title">Sign up for our newsletter</div>
+                            <div class="row">
+                                <div class="column-12">
+                                    <div class="input-group sign-up">
+                                        <input  placeholder="Enter Email Address" class="input-group-field" type="number">
+                                        <div class="input-group-button">
+                                            <input type="submit" class="button secondary" value="Sign up">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="footer-title">Follow Us</div>
+                            <ul class="menu horizontal follow-us ">
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-pinterest"></i></li>
+                                <li><i class="fa fa-instagram"></i></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+
+            <div class="grid-x copy-right" >
+                <div class="medium-5 cell">
+                    <ul class="menu ">
+                        <li><a href="#"> <img src="{{asset('/images/usa.png')}}"> &nbsp; United States</a></li>
                     </ul>
                 </div>
-                <div class="small-6 large-3 cell">
-                    <p class="lead">Solar Systems</p>
-                    <ul class="menu vertical">
-                        <li><a href="#">One</a></li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
-                        <li><a href="#">Four</a></li>
-                    </ul>
-                </div>
-                <div class="small-6 large-3 cell">
-                    <p class="lead">Contact</p>
-                    <ul class="menu vertical">
-                        <li><a href="#"><i class="fi-social-twitter"></i> Twitter</a></li>
-                        <li><a href="#"><i class="fi-social-facebook"></i> Facebook</a></li>
-                        <li><a href="#"><i class="fi-social-instagram"></i> Instagram</a></li>
-                        <li><a href="#"><i class="fi-social-pinterest"></i> Pinterest</a></li>
-                    </ul>
-                </div>
-                <div class="small-6 large-3 cell">
-                    <p class="lead">Offices</p>
-                    <ul class="menu vertical">
-                        <li><a href="#">One</a></li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
-                        <li><a href="#">Four</a></li>
+
+                <div class="medium-7 cell">
+                    <ul class="menu copy-note">
+                        <li class="menu-text">&copy 2018 Cytonn Residents </li>
                     </ul>
                 </div>
             </div>
-            <div class="grid-x">
-                <div class="medium-6 cell">
-                    <ul class="menu align-center">
-                        <li><a href="#">Legal</a></li>
-                        <li><a href="#">Partner</a></li>
-                        <li><a href="#">Explore</a></li>
-                    </ul>
-                </div>
-                <div class="medium-6 cell">
-                    <ul class="menu align-center">
-                        <li class="menu-text">Copyright 2018</li>
-                    </ul>
-                </div>
-            </div>
+
         </footer>
+    </section>
+    <section class="grid-container fluid section-eleven">
+        <div class="grid-x">
+            <div class="medium-12 cell">
+                <ul class="menu align-center">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Site Feedback</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
 </div>
 <!-- Scripts -->

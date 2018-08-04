@@ -2,6 +2,9 @@ $backgroundColorTransparent: transparent;
 $white: #ffffff;
 $black: #000000;
 $grey: #eaeaea;
+$footerTitle:#010101;
+$greyFooterText:#a2a2a2;
+$textGrey: #6c6c6c;
 $backgroundGradient: linear-gradient(to right, #ffa705, #ff3a95);
 $backgroundGradient2: linear-gradient(to right, #cf832d 55%, #bd4d65 100%);
 
@@ -200,23 +203,34 @@ body {
       }
 
     }
-    img{
+    .experience-img-one{
+      img{
+        width: 350px;
+        height:200px ;
+      }
+    }
+    img {
       margin-bottom: 10px;
     }
   }
-.workplace-div{
-  min-height: 350px;
-  .workplace{
-    color: $white;
-    a{
+  .workplace-div {
+    min-height: 350px;
+    .workplace {
       color: $white;
-      font-size: 18px;
-      font-weight: 800;
-      line-height: 3em;
+      a {
+        color: $white;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 3em;
+      }
     }
   }
-}
-
+  .workplace-img-one{
+    img{
+      width:450px;
+      height:200px;
+    }
+  }
 
 }
 
@@ -224,10 +238,10 @@ body {
   min-height: 720px;
   background: $black;
 
-  .products{
+  .products {
     min-height: 100px;
     padding: 80px 0px 50px 0px;
-    .product-title{
+    .product-title {
       background: $backgroundGradient;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -238,16 +252,16 @@ body {
         letter-spacing: 1px;
       }
     }
-    .product-more{
-      p{
+    .product-more {
+      p {
         color: $white;
       }
     }
   }
-  .product-category{
+  .product-category {
     color: $white;
-    img{
-      align:center;
+    img {
+      align: center;
     }
   }
 }
@@ -255,9 +269,9 @@ body {
 .section-four {
   min-height: 90px;
   background: #f9f9f9;
-  .offer{
+  .offer {
     padding: 30px 0px 30px 0px;
-    .offer-title{
+    .offer-title {
       background: $backgroundGradient;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -267,8 +281,8 @@ body {
       letter-spacing: 1px;
     }
   }
-  .offer-more{
-    a{
+  .offer-more {
+    a {
       color: #cacaca;
       font-size: 16px;
       font-weight: 900;
@@ -283,17 +297,17 @@ body {
 .section-five {
   min-height: 920px;
   background: #f9f9f9;
-  .first-image-row{
+  .first-image-row {
     margin-bottom: 15px;
   }
-  .special-offer{
+  .special-offer {
     width: 100%;
     margin: -10px 0px 0px -10px;
   }
-  .power-court{
+  .power-court {
     margin-left: -20px;
   }
-  .new-experience{
+  .new-experience {
     margin-left: -28px;
   }
 }
@@ -301,19 +315,162 @@ body {
 .section-six {
   min-height: 420px;
   background: $white;
+  .dream-home {
+    min-height: 350px;
+    background: #cccccc;
+    background-image: url("/images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+    h2{
+      color: $white;
+      font-size: 40px;
+      font-family: sans-serif;
+      font-weight: lighter;
+      letter-spacing: 1px;
+    }
+    p{
+      color: $white;
+    }
+    a{
+      background: $backgroundGradient;
+      color: $white;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 800;
+      margin-left: 40%;
+      padding: 15px;
+
+    }
+  }
 }
 
 .section-seven {
-  min-height: 600px;
-  background: $black;
+  min-height: 90px;
+  background: $white;
+  .news {
+    padding: 30px 0px 30px 0px;
+    .news-title {
+      background: $backgroundGradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      font-family: sans-serif;
+      font-weight: lighter;
+      letter-spacing: 1px;
+    }
+  }
+  .news-more {
+    a {
+      color: #cacaca;
+      font-size: 16px;
+      font-weight: 900;
+      float: right;
+      padding-bottom: 30px;
+    }
+
+  }
+
 }
 
 .section-eight {
-  min-height: 325px;
+  min-height: 600px;
   background: $white;
+  .article{
+
+    .article-right {
+        padding-left: 30px;
+      .article-one {
+        margin-bottom: 25px;
+      }
+    }
+  }
 }
 
 .section-nine {
-  min-height: 515px;
+  min-height: 330px;
+  background: $white;
+  background: #cccccc;
+  background-image: url("/images/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-ten {
+  min-height: 435px;
   background: $grey;
+  border-bottom: 1px solid #d6d6d6;
+  .callout{
+    border: none;
+  }
+  .copy-right{
+    a{
+      color: $textGrey;
+      font-weight: 800;
+      font-size: 14px;
+    }
+    .copy-note{
+      color: $textGrey;
+      font-size: 14px;
+    }
+
+    img{
+      width: 15px;
+      height: 12px;
+    }
+  }
+  .footer-title{
+    color: $footerTitle;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .menu-footer {
+    margin-top: 15px;
+    padding: 0px;
+    margin-bottom: 15px;
+    li{
+      a{
+        padding: 1px 0px 0px 0px;
+        color: $greyFooterText;
+        font-weight: 800;
+        font-size: 14px;
+        font-family: sans-serif;
+      }
+    }
+    line-height: 0.5;
+  }
+
+  .follow-us{
+    margin: 10px;
+    li{
+      margin: 20px;
+    }
+
+  }
+  .sign-up{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    .secondary{
+      background-color: #373737;
+      padding-left: 10px;
+      border-radius: 0px 5px 5px 0px;
+    }
+    .input-group-field{
+      width: 170px;
+      flex: 10px;
+    }
+  }
+}
+.section-eleven{
+  min-height: 80px;
+  background: $grey;
+  .menu{
+    padding-top: 10px;
+    a{
+      color: $footerTitle;
+      font-size: 14px;
+      font-weight: 800;
+    }
+  }
 }
