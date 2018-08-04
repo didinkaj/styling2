@@ -1,20 +1,19 @@
 /*
 Error: File to import not found or unreadable: node_modules/font-awesome/scss/font-awesome.
-        on line 5 of app.scss
+        on line 4 of app.scss
 
-1: 
-2: // Fonts
-3: @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-4: 
-5: @import "node_modules/font-awesome/scss/font-awesome";
-6: // Variables
-7: @import "settings";
-8: 
-9: // Bootstrap
-10: @import "foundation";
+1: // Fonts
+2: @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+3: 
+4: @import "node_modules/font-awesome/scss/font-awesome";
+5: // Variables
+6: @import "settings";
+7: 
+8: // Bootstrap
+9: @import "foundation";
 
 Backtrace:
-app.scss:5
+app.scss:4
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:45:in `import'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -57,4 +56,4 @@ app.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: node_modules/font-awesome/scss/font-awesome.\A         on line 5 of app.scss\A \A 1: \A 2: // Fonts\A 3: @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);\A 4: \A 5: @import \"node_modules/font-awesome/scss/font-awesome\";\A 6: // Variables\A 7: @import \"settings\";\A 8: \A 9: // Bootstrap\A 10: @import \"foundation\";"; }
+  content: "Error: File to import not found or unreadable: node_modules/font-awesome/scss/font-awesome.\A         on line 4 of app.scss\A \A 1: // Fonts\A 2: @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);\A 3: \A 4: @import \"node_modules/font-awesome/scss/font-awesome\";\A 5: // Variables\A 6: @import \"settings\";\A 7: \A 8: // Bootstrap\A 9: @import \"foundation\";"; }

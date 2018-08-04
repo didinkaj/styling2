@@ -36,7 +36,7 @@
                     <div class="top-bar-left">
                         <ul class="menu vertical medium-horizontal">
                             <li class="menu-text hide-for-small-only">
-                                <img src="{{asset('images/lg.png')}}" alt="Cytonn Resident" />
+                                <img src="{{asset('images/lg.png')}}" alt="Cytonn Resident"/>
                             </li>
                             <li><a href="#">Our Residents</a></li>
                             <li><a href="#">Room & Suites</a></li>
@@ -51,56 +51,129 @@
                             <li><a href="#">Who we are</a></li>
                             <li><a href="#">Media Centre</a></li>
                             <li><a href="#">Support</a></li>
-                            <li><a href="#"><img src="{{asset('images/usa.png')}}" alt="Cytonn Resident" width="20px"/></a></li>
+                            <li><a href="#"><img src="{{asset('images/usa.png')}}" alt="Cytonn Resident"/></a></li>
                             <li><a href="#"><i class="fa fa-search"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-
-            <div class="grid-x static-slider">
-                <div class="cell">
-
+            <div class="row align-middle static-slider">
+                <div class="columns medium-8">
+                    <h2>Luxurious Apartments</h2>
+                    <h2>offers from £300</h2>
+                    <p>Spend less on fare, and more where youre there</p>
+                    <button class="button">View More &nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></button>
                 </div>
             </div>
+            <div class="row slider-bottom-text ">
+                <div class="column slide-foot">
+                    <div class="row align-middle foot-content show-for-medium-up hide-for-small-only">
+                        <div class="column medium-2 looking-for"><h5>I'm looking for</h5></div>
+                        <div class="column "><input class="input" type="text" placeholder="Select Location"></div>
+                        <div class="column ">
+                            <div class="input-group">
+                                <span class="input-group-label input date-icon"><i class="fa fa-calendar "></i></span>
+                                <input class="input" type="text" placeholder="Check in Date">
+                            </div>
+                        </div>
+                        <div class="column ">
+                            <div class="input-group">
+                                <span class="input-group-label input date-icon"><i class="fa fa-calendar"></i></span>
+                                <input class="input" type="text" placeholder="Check out Date">
+                            </div>
+                        </div>
+                        <div class="column reservation "><a>Make a Reservation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                                        class="fa fa-arrow-right"></i></a></div>
+                    </div>
+
+                    <div class="row align-middle show-for-small-only foot-content ">
+                        <div class="column small-12 looking-for-small text-center"><h5>I'm looking for</h5></div>
+                        <div class="column small-12"><input class="input" type="text" placeholder="Select Location">
+                        </div>
+                        <div class="column small-12">
+                            <div class="input-group">
+                                <span class="input-group-label input date-icon"><i class="fa fa-calendar "></i></span>
+                                <input class="input" type="text" placeholder="Check in Date">
+                            </div>
+                        </div>
+                        <div class="column small-12">
+                            <div class="input-group">
+                                <span class="input-group-label input date-icon"><i class="fa fa-calendar"></i></span>
+                                <input class="input" type="text" placeholder="Check out Date">
+                            </div>
+                        </div>
+                    <div class="column small-12 reservation-small text-center"><a>Make a Reservation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+
+            </div>
+
         </div>
-    </section>
-
-    <section class="grid-container fluid section-two">
-
-    </section>
-
-    <section class="grid-container fluid section-three">
-
-    </section>
-
-    <section class="grid-container fluid section-four">
+</div>
+</section>
 
 
-    </section>
+<section class="grid-container fluid section-two">
+    <div class="row experience-div" >
+        <div class="column small-12 medium-6 align-self-bottom experience">
+            <h2>Giving you an experience,
+            Something better than
+            just living</h2><br/>
+        </div>
+        <div class="column small-12  medium-6  align-self-bottom ">
+            <img src="http://via.placeholder.com/350x200">
+        </div>
+    </div>
 
-    <section class="grid-container fluid section-five">
+    <div class="row workplace-div" >
+        <div class="column small-12  medium-6 align-self-top workplace ">
+            <p>
+                Refocus your workplace on people. Refocus <br/>
+                your workplace on people. Refocus your <br/>
+                workplace on people. Refocus your workplace<br/>
+                on people
+            </p>
+
+            <a>Learn More &nbsp; &nbsp; &nbsp; <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="column small-12  medium-6 text-center">
+            <img src="http://via.placeholder.com/450x200">
+        </div>
+    </div>
+
+</section>
+
+<section class="grid-container fluid section-three">
+
+</section>
+
+<section class="grid-container fluid section-four">
 
 
-    </section>
+</section>
 
-    <section class="grid-container fluid section-six">
-
-
-    </section>
-
-    <section class="grid-container fluid section-seven">
+<section class="grid-container fluid section-five">
 
 
-    </section>
+</section>
 
-    <section class="grid-container fluid section-eight">
-
-
-    </section>
+<section class="grid-container fluid section-six">
 
 
-    <section class="grid-container fluid section-nine">
+</section>
+
+<section class="grid-container fluid section-seven">
+
+
+</section>
+
+<section class="grid-container fluid section-eight">
+
+
+</section>
+
+
+<section class="grid-container fluid section-nine">
 
     <footer class="grid-container  ">
 
@@ -157,7 +230,7 @@
             </div>
         </div>
     </footer>
-    </section>
+</section>
 </div>
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>

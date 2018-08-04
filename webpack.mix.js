@@ -1,5 +1,7 @@
 let mix = require('laravel-mix');
 
+mix.browserSync('styling2.appp');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management

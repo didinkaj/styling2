@@ -2,6 +2,8 @@ $backgroundColorTransparent: transparent;
 $white: #ffffff;
 $black: #000000;
 $grey: #eaeaea;
+$backgroundGradient: linear-gradient(to right, #ffa705, #ff3a95);
+$backgroundGradient2: linear-gradient(to right, #cf832d 55%, #bd4d65 100%);
 
 body {
   margin: 0px;
@@ -62,56 +64,193 @@ body {
           color: $white;
         }
       }
+      img {
+        width: 18px;
+        height: 13px;
+      }
 
     }
 
   }
 
   .static-slider {
-    min-height: 760px;
+    min-height: 605px;
+    h2 {
+      font-size: 40px;
+      font-family: sans-serif;
+      font-weight: lighter;
+      background: $backgroundGradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 1px;
+    }
+    p {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 800;
+    }
+    button {
+      padding: 15px 40px 15px 40px;
+      background: $backgroundGradient;
+      border-radius: 5px;
+      font-family: sans-serif;
+      color: white;
+      font-weight: 800;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
   }
+  .slider-bottom-text {
+    .slide-foot {
+      width: 100%;
+      background: $backgroundGradient2;
+      opacity: 0.8;
+      min-height: 100px;
+      margin-bottom: 50px;
+
+      border-radius: 5px;
+      .foot-content {
+        min-height: 105px;
+        .looking-for {
+          border-right: 1px solid white;
+          color: $white;
+          font-weight: 100;
+          h5 {
+            font-color: $white;
+          }
+        }
+        .input-group {
+          margin-top: 13px;
+          margin-bottom: 8px;
+        }
+        .input {
+          color: $white;
+          background: #c57830;
+          font-weight: 500;
+          border: 0px;
+          box-shadow: none;
+          margin-top: 10px;
+          font-size: 16px;
+        }
+        ::-webkit-input-placeholder {
+          color: $white;
+        }
+
+        .date-icon {
+          border-right: 1px solid #c57830;
+          height: 48px;
+        }
+
+        .looking-for-small {
+          color: $white;
+          h5 {
+            font-color: $white;
+            padding: 10px;
+
+          }
+        }
+
+        input[type='text'], [type='date'] {
+          padding: 1.5em;
+
+        }
+
+        .reservation-small {
+
+          a {
+            color: $white;
+            font-size: 18px;
+            font-weight: 800;
+          }
+        }
+
+        .reservation {
+          a {
+            color: $white;
+            font-size: 18px;
+            font-weight: 800;
+          }
+
+        }
+
+      }
+    }
+
+  }
+
 }
 
-.section-two{
-  min-height: 760px;
+.section-two {
+  min-height: 710px;
   background: #cccccc;
   background-image: url("/images/1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  .experience-div {
+    min-height: 350px;
+    .experience {
+      background: $backgroundGradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      h2 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        letter-spacing: 1px;
+      }
+
+    }
+    img{
+      margin-bottom: 10px;
+    }
+  }
+.workplace-div{
+  min-height: 350px;
+  .workplace{
+    color: $white;
+    a{
+      color: $white;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 3em;
+    }
+  }
+}
+
 
 }
 
-.section-three{
+.section-three {
   min-height: 720px;
   background: $black;
 }
 
-.section-four{
+.section-four {
   min-height: 100px;
   background: $white;
 }
 
-.section-five{
+.section-five {
   min-height: 920px;
   background: $black;
 }
 
-.section-six{
+.section-six {
   min-height: 420px;
   background: $white;
 }
 
-.section-seven{
+.section-seven {
   min-height: 600px;
   background: $black;
 }
 
-.section-eight{
+.section-eight {
   min-height: 325px;
   background: $white;
 }
 
-.section-nine{
+.section-nine {
   min-height: 515px;
   background: $grey;
 }
