@@ -329,7 +329,7 @@
             <div class="grid-x">
 
             <div class="row  ">
-                <div class="column medium-10 medium-offset-1">
+                <div class="column medium-8 medium-offset-1">
                     <div class="orbit" role="region" aria-label="slider" data-orbit>
                         <ul class="orbit-container text-slider">
 
@@ -340,8 +340,8 @@
                                         but i've been spending most of my time in neighborhood, living
                                         like locals."
                                     </p>
-                                    <br>
-                                    <p>From Joseph Wachira, Lived in Wasini</p>
+
+                                    <p class="text-center writter-name">From Joseph Wachira, Lived in <span class="location">Wasini</span></p>
                                 </div>
                             </li>
                             <li class="orbit-slide">
@@ -351,8 +351,8 @@
                                         but i've been spending most of my time in neighborhood, living
                                         like locals."
                                     </p>
-                                    <br>
-                                    <p>From Joseph Wachira, Lived in Wasini</p>
+
+                                    <p class="text-center writter-name">From Joseph Wachira, Lived in <span class="location">Wasini</span></p>
                                 </div>
                             </li>
                             <li class="orbit-slide">
@@ -362,8 +362,8 @@
                                         but i've been spending most of my time in neighborhood, living
                                         like locals."
                                     </p>
-                                    <br>
-                                    <p>From Joseph Wachira, Lived in Wasini</p>
+
+                                    <p class="text-center writter-name">From Joseph Wachira, Lived in <span class="location">Wasini</span></p>
                                 </div>
                             </li>
                             <li class="orbit-slide">
@@ -373,8 +373,8 @@
                                         but i've been spending most of my time in neighborhood, living
                                         like locals."
                                     </p>
-                                    <br>
-                                    <p>From Joseph Wachira, Lived in Wasini</p>
+
+                                    <p class="text-center writter-name">From Joseph Wachira, Lived in <span class="location">Wasini</span></p>
                                 </div>
                             </li>
                             <li class="orbit-slide">
@@ -384,8 +384,8 @@
                                         but i've been spending most of my time in neighborhood, living
                                         like locals."
                                     </p>
-                                    <br>
-                                    <p>From Joseph Wachira, Lived in Wasini</p>
+
+                                    <p class="text-center writter-name">From Joseph Wachira, Lived in Wasini</p>
                                 </div>
                             </li>
                         </ul>

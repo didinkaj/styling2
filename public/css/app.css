@@ -15410,18 +15410,42 @@ body {
   color: #ffffff;
   margin-top: 1%;
   alignment: center;
-  padding: 50px 50px;
+  padding-top: 30px;
 }
 
 .section-nine .text-slider {
-  background-color: #252422;
-  font-size: 24px;
-  font-weight: 200;
+  background-color: #262523;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: sans-serif;
+  border-radius: 5px;
+  line-height: 30px;
+  min-height: 220px;
+  padding: 40px 60px 50px 60px;
+}
+
+.section-nine .text-slider p {
   font-style: italic;
+  text-align: center;
+}
+
+.section-nine .text-slider .writter-name {
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .section-nine .slider-indicator {
-  background-color: #252422;
+  margin-top: 30px;
+  font-style: none;
+}
+
+.section-nine .location {
+  color: #d98c62;
+  font-weight: 800;
 }
 
 .section-ten {
@@ -15476,7 +15500,7 @@ body {
 }
 
 .section-ten .follow-us li {
-  margin: 20px;
+  margin-left: 25px;
 }
 
 .section-ten .sign-up {
@@ -15510,5 +15534,11 @@ body {
   color: #010101;
   font-size: 14px;
   font-weight: 800;
+}
+
+.orbit-bullets button {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0.1rem;
 }
 
