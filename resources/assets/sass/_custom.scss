@@ -453,7 +453,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   .orbit{
+    position: relative;
     color: $white;
+    margin-top: 1%;
+    alignment: center;
+    padding: 50px 50px;
+
+  }
+  .text-slider{
+    background-color: #252422;
+    font-size: 24px;
+    font-weight: 200;
+    font-style: italic;
+
+
+  }
+  .slider-indicator{
+    background-color: #252422;
+
+
   }
 }
 
