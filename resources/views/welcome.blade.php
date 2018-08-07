@@ -29,7 +29,7 @@
                         <div class="title-bar-title">Menu</div>
                     </div>
                     <div class="title-bar-right">
-                        <img src="{{asset('images/cytonn-residence.png')}}" alt="Cytonn Resident">
+                        <img src="{{asset('images/lg.png')}}" alt="Cytonn Resident">
                     </div>
                 </div>
                 <div class="top-bar" id="mainNavigation">
@@ -158,28 +158,36 @@
             <div class="grid-x product-category">
 
                 <div class="cell medium-3">
-                    <img src="{{asset('/images/10.png')}}">
+                    <div class="product-imge">
+                        <img src="{{asset('/images/10.png')}}">
+                    </div>
                     <p class="text-center">
                         <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
                         Rooms and suits
                     </p>
                 </div>
                 <div class="cell medium-3">
-                    <img src="{{asset('/images/11.png')}}">
+                    <div class="product-imge">
+                        <img src="{{asset('/images/11.png')}}">
+                    </div>
                     <p class="text-center">
                         <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
                         conferences and Meeting
                     </p>
                 </div>
                 <div class="cell medium-3">
-                    <img src="{{asset('/images/13.png')}}">
+                    <div class="product-imge">
+                        <img src="{{asset('/images/13.png')}}">
+                    </div>
                     <p class="text-center">
                         <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
                         Dining
                     </p>
                 </div>
                 <div class="cell medium-3">
-                    <img src="{{asset('/images/14.png')}}">
+                    <div class="product-imge">
+                        <img src="{{asset('/images/14.png')}}">
+                    </div>
                     <p class="text-center">
                         <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
                         Excursions and activities
@@ -192,7 +200,7 @@
     <section class="grid-container fluid section-four">
         <div class="grid-container ">
             <div class="row offer">
-                <div class=" medium-8 ">
+                <div class=" medium-9 ">
                     <h2 class="offer-title">
                         Special Offers & Packages
                     </h2>
@@ -207,19 +215,19 @@
 
     <section class="grid-container fluid section-five">
         <div class="grid-container ">
-            <div class="grid-x first-image-row">
-                <div class=" medium-6 cell special-offer">
+            <div class="grid-x">
+                <div class=" medium-6 cell special-offer-img">
                     <img src="{{asset('/images/3.png')}}">
                 </div>
-                <div class=" medium-6 cell power-court">
+                <div class=" medium-6 cell special-offer-img">
                     <img src="{{asset('/images/2.png')}}">
                 </div>
             </div>
             <div class="grid-x ">
-                <div class=" medium-6 cell">
+                <div class=" medium-6 cell special-offer-img">
                     <img src="{{asset('/images/4.png')}}">
                 </div>
-                <div class=" medium-6 cell new-experience">
+                <div class=" medium-6 cell special-offer-img">
                     <img src="{{asset('/images/5.png')}}">
                 </div>
             </div>
@@ -259,16 +267,56 @@
     <section class="grid-container fluid section-eight">
         <div class="grid-container ">
             <div class="grid-x article">
-                <div class="cell medium-7 article-left">
-                    <img src="{{asset('/images/7.png')}}">
-                </div>
-                <div class="cell medium-5 article-right">
-                    <div class="row">
-                        <div class="medium-12 article-one">
-                            <img src="{{asset('/images/8.png')}}">
+                <div class="cell small-12 medium-8 article-left">
+                    <div class="row article-content">
+                        <div class="column medium-12 align-self-top">
+                            <div class="date">
+                                <p>MAY 24 2017</p>
+                            </div>
+                            <div class="medium-5">
+                                <h5>Special Offers & Packages</h5>
+                                <p>Find facts and figures on people and
+                                    the environment, or visualize the latest
+                                    data on the world today
+                                </p>
+                            </div>
                         </div>
-                        <div class="medium-12">
-                            <img src="{{asset('/images/9.png')}}">
+                        <div class="column medium-12 align-self-bottom">
+                            <span class="by">by:</span> <strong>Joel Imbwaga</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell small-12 medium-4 article-right">
+                    <div class="row">
+                        <div class="small-12 medium-12 article-one">
+                            <div class="row article-content-small">
+                                <div class="column medium-12 align-self-top">
+                                    <div class="date">
+                                        <p>MAY 24 2017</p>
+                                    </div>
+                                    <div class="title">
+                                        <h5>Special offer & Packages</h5>
+                                    </div>
+                                </div>
+                                <div class="column medium-12 align-self-bottom">
+                                    <p><span class="by">by:</span> <strong> Joel Imbwaga</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" small-12 medium-12  article-two">
+                            <div class="row article-content-small">
+                                <div class="column medium-12 align-self-top">
+                                    <div class="date">
+                                        <p>MAY 24 2017</p>
+                                    </div>
+                                    <div class="title">
+                                        <h5>Special offer & Packages</h5>
+                                    </div>
+                                </div>
+                                <div class="column medium-12 align-self-bottom">
+                                    <p><span class="by">by:</span> <strong>Joel Imbwaga</strong></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -278,6 +326,81 @@
 
     <section class="grid-container fluid section-nine">
         <div class="grid-container ">
+
+
+            <div class="row">
+                <div class="columns">
+                    <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
+                        <ul class="orbit-container">
+
+                            <li class="is-active orbit-slide">
+                                <div class="docs-example-orbit-slide">
+                                    <p>
+                                        " When most people travel to Nairobi, they want to see the mara.
+                                        but i've been spending most of my time in neighborhood, living
+                                        like locals."
+                                    </p>
+                                    <br>
+                                    <p>From Joseph Wachira, Lived in Wasini</p>
+                                </div>
+                            </li>
+                            <li class="orbit-slide">
+                                <div class="docs-example-orbit-slide">
+                                    <p>
+                                        " When most people travel to Nairobi, they want to see the mara.
+                                        but i've been spending most of my time in neighborhood, living
+                                        like locals."
+                                    </p>
+                                    <br>
+                                    <p>From Joseph Wachira, Lived in Wasini</p>
+                                </div>
+                            </li>
+                            <li class="orbit-slide">
+                                <div class="docs-example-orbit-slide">
+                                    <p>
+                                        " When most people travel to Nairobi, they want to see the mara.
+                                        but i've been spending most of my time in neighborhood, living
+                                        like locals."
+                                    </p>
+                                    <br>
+                                    <p>From Joseph Wachira, Lived in Wasini</p>
+                                </div>
+                            </li>
+                            <li class="orbit-slide">
+                                <div class="docs-example-orbit-slide">
+                                    <p>
+                                        " When most people travel to Nairobi, they want to see the mara.
+                                        but i've been spending most of my time in neighborhood, living
+                                        like locals."
+                                    </p>
+                                    <br>
+                                    <p>From Joseph Wachira, Lived in Wasini</p>
+                                </div>
+                            </li>
+                            <li class="orbit-slide">
+                                <div class="docs-example-orbit-slide">
+                                    <p>
+                                        " When most people travel to Nairobi, they want to see the mara.
+                                        but i've been spending most of my time in neighborhood, living
+                                        like locals."
+                                    </p>
+                                    <br>
+                                    <p>From Joseph Wachira, Lived in Wasini</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <nav class="orbit-bullets">
+                            <button class="is-active" data-slide="0"><span
+                                        class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span>
+                            </button>
+                            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                            <button data-slide="4"><span class="show-for-sr">Fourth slide details.</span></button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
@@ -354,11 +477,12 @@
                         </div>
                         <div class="small-4 medium-8 ">
 
-                                <div class="footer-title">Sign up for our newsletter</div>
+                            <div class="footer-title">Sign up for our newsletter</div>
                             <div class="row">
                                 <div class="column-12">
                                     <div class="input-group sign-up">
-                                        <input  placeholder="Enter Email Address" class="input-group-field" type="number">
+                                        <input placeholder="Enter Email Address" class="input-group-field"
+                                               type="number">
                                         <div class="input-group-button">
                                             <input type="submit" class="button secondary" value="Sign up">
                                         </div>
@@ -381,7 +505,7 @@
             </div>
             <br/>
 
-            <div class="grid-x copy-right" >
+            <div class="grid-x copy-right">
                 <div class="medium-5 cell">
                     <ul class="menu ">
                         <li><a href="#"> <img src="{{asset('/images/usa.png')}}"> &nbsp; United States</a></li>
@@ -390,7 +514,7 @@
 
                 <div class="medium-7 cell">
                     <ul class="menu copy-note">
-                        <li class="menu-text">&copy 2018 Cytonn Residents </li>
+                        <li class="menu-text">&copy 2018 Cytonn Residents</li>
                     </ul>
                 </div>
             </div>
