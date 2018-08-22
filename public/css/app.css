@@ -14980,6 +14980,7 @@ body {
 .section-one .top-bar .top-bar-left ul a {
   font-size: 14px;
   font-weight: 800;
+  color: #ffffff;
 }
 
 .section-one .top-bar .top-bar-right {
@@ -15408,7 +15409,6 @@ body {
 .section-nine .orbit {
   position: relative;
   color: #ffffff;
-  margin-top: 1%;
   alignment: center;
   padding-top: 30px;
 }
@@ -15440,7 +15440,6 @@ body {
 
 .section-nine .slider-indicator {
   margin-top: 30px;
-  font-style: none;
 }
 
 .section-nine .location {
