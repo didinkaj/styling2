@@ -54,6 +54,7 @@ body {
         a {
           font-size: 14px;
           font-weight: 800;
+          color: $white;
         }
 
       }
@@ -455,11 +456,8 @@ body {
   .orbit{
     position: relative;
     color: $white;
-    margin-top: 1%;
     alignment: center;
     padding-top: 30px;
-
-
   }
   .text-slider{
     background-color: #262523;
@@ -482,13 +480,9 @@ body {
       font-size:16px;
       font-style: normal;
     }
-
-
-
   }
   .slider-indicator{
     margin-top: 30px;
-    font-style: none;
   }
   .location{
     color: #d98c62;
